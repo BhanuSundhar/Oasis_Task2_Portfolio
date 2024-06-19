@@ -1,0 +1,382 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;    
+    height: fit-content;
+}
+.first{
+    margin: 10px 0;
+}
+.navbar{
+    width: 100%;
+    background-color: rgb(225, 244, 244);
+    display: flex;
+    flex-direction: row;
+    box-shadow: 3px black;
+}
+.navbar > a{
+    font-size: 20px;
+    padding: 20px;
+    display: block;
+    text-decoration: none;
+    color: rgb(147, 75, 75);
+    font-size: 140%;
+    margin-left: 70px;
+}
+.navbar > a:hover{
+    color: rgba(47, 12, 218, 0.602);
+}
+.navbar ul{
+    list-style-type: none;
+    overflow: hidden;
+    padding: 15px;
+    display: block;
+    margin-left: 37%;
+}
+#navbar-list > li{
+    float: left;
+    display: block;
+    margin-right: 45px;
+}
+#navbar-list a{
+    text-decoration: none;
+    color: rgb(166, 124, 124);
+    font-size: 110%;
+    font-weight: 800;
+    padding: 10px;
+}
+#navbar-list a:hover{
+    color: rgba(47, 12, 218, 0.602);
+}
+.first-body{
+    margin-top: 5px;
+    padding: 10px;
+    width: 100%;
+    overflow: hidden;
+}
+.first-body > div{
+    margin: 100px auto;
+    position: relative;
+    left: 90px;
+    top: 100px;
+    color: rgb(64, 32, 32);
+}
+
+.first-body > div h1{
+    font-size: 80px;
+}
+.first-body > div h5{
+    font-size: 30px;
+}
+.first-body > div h6{
+    font-size: 30px;
+    font-weight: 100;
+}
+.first-body img{
+    width: 600px;
+    position: relative;
+    bottom: 30px;
+    left: 40px;
+}
+.first-body > img, .first-body > div{
+    float: left;
+}
+.first-body2{
+    padding: 10px;
+    margin-top: 20px;
+}
+.first-body2 > input{
+    width: 35%;
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    background-color: rgb(70, 71, 71);
+    color: wheat;
+    border-radius: 50px;
+}
+.first-body2 > input:hover{
+    background-color: black;
+    box-shadow: 1px 2px rgb(80, 46, 46);
+}
+/* 30, 48 , 80*/
+.ulist{
+    list-style-type: none;
+    margin: 30px 2px;
+    padding: 10px 2px;
+}
+.ulist > li{
+    width: 60px;
+    height: 60px;
+    float: left;
+    border: 2px solid ;
+    margin-left: 25px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: relative;
+    right: 30px;
+    background-color: rgb(167, 170, 170);
+}
+.ulist > li:hover{
+    background-color: white;
+}
+.ulist li > a{
+    text-decoration: none;
+    float: left;
+    color: rgb(70, 71, 71);
+    width: 50px;
+    height: 40px;
+    position: relative;
+    top: 24px;
+    left: 8px;
+}
+.ulist a :hover{
+    color: rgb(30, 48 , 80);
+}
+.ulist i{
+    font-size: 40px;
+}
+
+
+.about{
+    width: 100%;
+    height: fit-content;
+    display: block;
+    align-items: center;
+    padding: 5px 100px;
+}
+.about > h2{
+    font-size: 35px;
+    text-align: center;
+    margin: 6px;
+    padding: 25px;
+    font-weight: 100;
+}
+.about > p{
+    font-size: 18px;
+}
+.about-divs{
+    width: 100%;
+    padding: 25px 0px;
+    margin: 13px 0px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.about-divs > div{
+    width: 30%;
+    height: 40vh;
+    text-align: center;
+}
+.about-divs img{
+    width: 100px;
+    border: none;
+    padding: 2px;
+}
+.about-divs  div > p{
+    padding: 15px;
+    font-size: 110%;
+} 
+.about-divs > div:hover{
+    background-color: rgba(223, 226, 206, 0.681);
+    box-shadow: 2px 3px 2px black;
+    box-sizing: content-box;
+    padding: 8px;
+}
+/* 30, 48 , 80*/
+
+
+
+.contact{
+    width: 100%;
+    height: fit-content;
+    display: block;
+    margin: 0;
+    align-items: center;
+    padding: 0;
+    overflow: hidden;
+}
+.contact-heading > h2{
+    font-size: 35px;
+    text-align: center;
+    margin: 10px;
+    padding: 25px;
+    font-weight: 100;
+}
+.contact-heading > h1{
+    font-size: 27px;
+    text-align: center;
+    margin: 0;
+    padding: 6px;
+    font-weight: 90;
+}
+.contact-heading > p{
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+    padding: 6px;
+    font-weight: 80;
+}
+.contact-information{
+    width: 80%;
+    height: 490px;
+    margin: 5px auto;
+    display: block;
+    box-shadow: 2px 3px 2px black;
+    background-color: rgb(200, 200, 209);
+    position: relative;
+    border-radius: 6px;
+    top: 140px;
+    z-index: 2;
+}
+.contact-information > div{
+    float: left;
+}
+.contact-information > .contact-info1{
+    width: 60%;
+    border-right-width:1px;
+    padding: 2%;
+}
+.contact-info1{
+    border-right: 1px solid black;
+    height: 490px;
+}
+.contact-info1 > p{
+    width: 30%;
+    margin: 4px 25px;
+    text-align:left;
+    font-size: 130%;
+    font-weight: 200;
+}
+.contact-info1 > h2{
+    width: 50%;
+    margin: 4px 25px;
+    text-align: left;
+    font-size: 220%;
+    font-weight: 150;
+}
+.contact-info1 > .inputs{
+    width: 100%;
+}
+.inputs > input{
+    width: 95%;
+    padding: 10px;
+    border-radius: 8px;
+    margin: 8px 0;
+}
+.inputs > input:hover{
+    box-shadow: 2px 3px 2px black;
+}
+.inputs > textarea{
+    width: 95%;
+    height: 170px;
+    border-radius: 8px;
+    margin: 8px 0;
+    resize: none;
+}
+.inputs > input::placeholder, .inputs > textarea::placeholder{
+    font-size: 130%;
+    font-weight: 100;
+}
+.inputs > textarea:hover{
+    box-shadow: 2px 3px 2px black;
+}
+.inputs > textarea::placeholder{
+    padding: 6px;
+}
+#submit{
+    width: 95%;
+    border-radius: 8px;
+    margin: 8px 0;
+    color: white;
+    font-size: 100;
+    background-color: rgb(175, 0, 0);
+}
+#submit:hover{
+    background-color: red;
+}
+.contact-info2{
+    margin: 90px 0px;
+}
+.contact-info2 > div{
+    width: 90%;
+    height: 40px;
+    justify-content: space-around;
+    margin: 15px 8px;
+    padding: 2px 5px;
+}
+.contact-info2 i{
+    font-size: 140%;
+    display: block;
+    position: relative;
+    left: 12px;
+    top: 10px;
+}
+.contact-info2 span{
+    display: block;
+    border: 1px solid;
+    border-radius: 50%;
+    color: rgb(129, 121, 74);
+    /* color: rgb(12, 101, 180); */
+}
+.contact-info2 span:hover{
+    color: red;
+    background-color: white;
+}
+.info-sub1 > span , .info-sub1 > div{
+    float: left;
+}
+.info-sub1 > span, .info-sub2 > span , .info-sub3 > span {
+    width: 44px;
+    height: 46px;
+}
+.info-sub1 > div, .info-sub2 > div, .info-sub3 > div{
+    position: relative;
+    left: 15px;
+}
+.info-sub2 > span , .info-sub2 > div{
+    float: left;
+}
+.info-sub3 > span , .info-sub3 > div{
+    float: left;
+}
+
+/* .contact-info1 > p{
+    background-color: rgb(56, 102, 143);
+    width: 30%;
+    text-align: center;
+    font-size: 130%;
+} */
+.contact-information > .contact-info2{
+    width: 40%;
+}
+.box{
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(139, 136, 136);
+    position: relative;
+}
+
+
+
+.footer{
+    background-color: blanchedalmond;
+    padding: 30px;
+}
+.footer > div{
+    float: right;
+}
+.footer i{
+    display: block;
+    font-size: 250%;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: rgb(127, 127, 158);
+}
+.footer i:hover{
+    color: rgb(100, 100, 208);
+}
+
+
